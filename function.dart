@@ -35,3 +35,12 @@ String known({String? name, int? age}) {
       return "Unknown?";
   }
 }
+
+//Recursion  //factorial
+int fact(int num) {
+  if (num == 1) {
+    return 1;
+  } else {
+    return num * fact(num - 1);
+  }
+}
